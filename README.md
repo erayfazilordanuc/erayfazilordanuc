@@ -32,7 +32,7 @@ Pixhawk integration and flight testing. Writing custom STM32 flight control firm
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
-        <img src="assets/manipulator.gif" width="100%" alt="5-DOF robotic arm"/>
+        <img src="assets/manipulator.jpg" width="100%" alt="5-DOF robotic arm"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">esp-5dof-manipulator</a></b><br>
       5-DOF robotic arm built from scratch. Fusion 360 mechanics, ESP32 + PCA9685 servo control,
@@ -58,7 +58,7 @@ Pixhawk integration and flight testing. Writing custom STM32 flight control firm
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/dinasour-game-beater">
-        <img src="assets/dino.gif" width="100%" alt="Real-time vision agent"/>
+        <img src="assets/dino.png" width="100%" alt="Real-time vision agent"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/dinasour-game-beater">dinosaur-game-beater</a></b><br>
       Real-time computer vision agent. Screen capture, OpenCV obstacle detection and
