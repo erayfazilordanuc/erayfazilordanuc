@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/profile.jpg" width="150" alt="Eray Fazıl Ordanuç"/>
+</p>
+
 <h1 align="center">Eray Fazıl Ordanuç</h1>
 
 <p align="center">
@@ -9,7 +13,7 @@
   <a href="https://www.linkedin.com/in/erayfazilordanuc/">
     <img src="https://img.shields.io/badge/LinkedIn-1F2328?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:YOUR-EMAIL">
+  <a href="mailto:fazilordanuc@gmail.com">
     <img src="https://img.shields.io/badge/Email-1F2328?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -21,8 +25,6 @@
 Leading software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST 2026.
 Mission state machine in Python/pymavlink over ArduPlane, Gazebo/SITL validation loop,
 Pixhawk integration and flight testing. Writing custom STM32 flight control firmware on the side.
-
-<sub>Team repository is private.</sub>
 
 <br>
 
