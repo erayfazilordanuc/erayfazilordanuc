@@ -2,7 +2,7 @@
   <img src="assets/profile.png" width="140" alt="Eray Fazıl Ordanuç"/>
 </p>
 
-<h1 align="center">Eray Fazıl Ordanuç</h1>
+<h3 align="center">Eray Fazıl Ordanuç</h3>
 
 <p align="center">
   Mechatronics Engineering student at <b>Yıldız Technical University</b><br>
@@ -11,24 +11,24 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/erayfazilordanuc/">
-    <img src="https://img.shields.io/badge/LinkedIn-1F2328?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-1F2328?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/>
   </a>
   <a href="mailto:fazilordanuc@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1F2328?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-1F2328?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/>
   </a>
 </p>
 
 <br>
 
-### 🛩️ Currently
+### Currently
 
-Leading software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST 2026.
+Building software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST 2026.
 Mission state machine in Python/pymavlink over ArduPlane, Gazebo/SITL validation loop,
 Pixhawk integration and flight testing. Writing custom STM32 flight control firmware on the side.
 
 <br>
 
-### 🔧 Selected Work
+### Selected Work
 
 <table>
   <tr>
@@ -71,7 +71,7 @@ Pixhawk integration and flight testing. Writing custom STM32 flight control firm
 
 <br>
 
-### 🧰 Stack
+### Stack
 
 **Embedded & Control**<br>
 ![C++](https://img.shields.io/badge/C++-1F2328?style=flat-square&logo=cplusplus&logoColor=659AD2)
