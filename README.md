@@ -34,20 +34,20 @@ server setup and deployment behind them.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
-        <img src="assets/manipulator.jpg" width="100%" alt="5-DOF robotic arm"/>
-      </a>
-      <p><b><a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">esp-5dof-manipulator</a></b><br>
-      5-DOF robotic arm built from scratch. Fusion 360 mechanics, ESP32 + PCA9685 servo control,
-      forward/inverse kinematics and trajectory generation in NumPy.</p>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/rc-plane">
         <img src="assets/rc-plane.jpg" width="100%" alt="DIY RC plane"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/rc-plane">rc-plane</a></b><br>
       DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32-C3 receiver over nRF24 —
       4-channel CRC-checked protocol at 50 Hz, shared byte-for-byte between both firmwares.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
+        <img src="assets/manipulator.jpg" width="100%" alt="5-DOF robotic arm"/>
+      </a>
+      <p><b><a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">esp-5dof-manipulator</a></b><br>
+      5-DOF robotic arm built from scratch. Fusion 360 mechanics, ESP32 + PCA9685 servo control,
+      forward/inverse kinematics and trajectory generation in NumPy.</p>
     </td>
   </tr>
   <tr>
