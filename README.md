@@ -35,7 +35,7 @@ server setup and deployment behind them.
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/rc-plane">
-        <img src="assets/rc-plane.jpg" width="100%" alt="DIY RC plane"/>
+        <img src="assets/rc-plane.jpeg" width="100%" alt="DIY RC plane"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/rc-plane">rc-plane</a></b><br>
       DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32-C3 receiver over nRF24 —
