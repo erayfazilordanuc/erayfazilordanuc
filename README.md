@@ -38,8 +38,8 @@ server setup and deployment behind them.
         <img src="assets/rc-plane.jpeg" width="100%" alt="DIY RC plane"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/rc-plane">rc-plane</a></b><br>
-      DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32-C3 receiver over nRF24 —
-      4-channel CRC-checked protocol at 50 Hz, shared byte-for-byte between both firmwares.</p>
+      DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32 receiver over nRF24 + ESP-NOW — 4-channel CRC-checked protocol at 50 Hz, shared byte-for-byte between both firmwares.
+      </p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
