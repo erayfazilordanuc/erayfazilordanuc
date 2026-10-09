@@ -20,7 +20,7 @@
 
 Building software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST.
 Mission state machine in Python/pymavlink over ArduPlane, Gazebo/SITL validation loop,
-Pixhawk integration and flight testing. Writing custom STM32 flight control firmware on the side.
+Pixhawk integration and flight testing.
 
 Also building web at **Servi** — a volunteer community I joined, now part-time there.
 React and Next.js apps in production: [serviekibi.com](https://serviekibi.com) and
@@ -76,7 +76,6 @@ server setup and deployment behind them.
 
 **Embedded & Control**<br>
 ![C++](https://img.shields.io/badge/C++-1F2328?style=flat-square&logo=cplusplus&logoColor=659AD2)
-![STM32](https://img.shields.io/badge/STM32-1F2328?style=flat-square&logo=stmicroelectronics&logoColor=3CB4E6)
 ![ESP32](https://img.shields.io/badge/ESP32-1F2328?style=flat-square&logo=espressif&logoColor=E7352C)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-1F2328?style=flat-square&logo=platformio&logoColor=FF7F00)
 
