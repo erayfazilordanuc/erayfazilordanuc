@@ -18,6 +18,9 @@
 
 ### Currently
 
+Designing position control for a 2-axis stepper turret: [**turret-control**](https://github.com/erayfazilordanuc/turret-control).
+Model-in-the-loop design in MATLAB/Simulink is done; the C core is next, verified in SIL and then on STM32 hardware (HIL).
+
 Building software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST.
 Mission state machine in Python/pymavlink over ArduPlane, Gazebo/SITL validation loop,
 Pixhawk integration and flight testing.
@@ -34,12 +37,11 @@ server setup and deployment behind them.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/erayfazilordanuc/rc-plane">
-        <img src="assets/rc-plane.jpeg" width="100%" alt="DIY RC plane"/>
+      <a href="https://github.com/erayfazilordanuc/turret-control">
+        <img src="assets/turret-control.png" width="100%" alt="turret-control: raw step vs S-curve"/>
       </a>
-      <p><b><a href="https://github.com/erayfazilordanuc/rc-plane">rc-plane</a></b><br>
-      DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32 receiver over nRF24 + ESP-NOW — 4-channel CRC-checked protocol at 50 Hz, shared byte-for-byte between both firmwares.
-      </p>
+      <p><b><a href="https://github.com/erayfazilordanuc/turret-control">turret-control</a></b><br>
+      Position control for a 2-axis stepper turret. Loop gain chosen against rotor resonance (12 dB margin), velocity feed-forward, S-curve reference. A nonlinear Simulink model shows a raw 50° step slipping ~6 teeth and the S-curve move slipping none. MIL done; C core, SIL and STM32 HIL next.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
@@ -52,12 +54,27 @@ server setup and deployment behind them.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/erayfazilordanuc/health-and-exercise-app">
-        <img src="assets/health-app.jpg" width="100%" alt="Health and exercise app"/>
+      <a href="https://github.com/erayfazilordanuc/rc-plane">
+        <img src="assets/rc-plane.jpeg" width="100%" alt="DIY RC plane"/>
       </a>
-      <p><b><a href="https://github.com/erayfazilordanuc/health-and-exercise-app">health-and-exercise-app</a></b><br>
-      Mobile health and exercise tracker. React Native client, Spring Boot + PostgreSQL backend,
-      REST API with authentication and persistent activity history.</p>
+      <p><b><a href="https://github.com/erayfazilordanuc/rc-plane">rc-plane</a></b><br>
+      DIY RC aircraft, airframe to radio link. ESP32 transmitter and ESP32 receiver over nRF24 + ESP-NOW — 4-channel CRC-checked protocol at 50 Hz, shared byte-for-byte between both firmwares.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/erayfazilordanuc/React-Native--ESP-Communication">
+        <img src="assets/ble.png" width="100%" alt="React Native and ESP32 over BLE"/>
+      </a>
+      <p><b><a href="https://github.com/erayfazilordanuc/React-Native--ESP-Communication">React-Native--ESP-Communication</a></b><br>
+      Bidirectional BLE link between a React Native app and an ESP32 GATT server: scan, connect, write servo commands, subscribe to notifications.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/erayfazilordanuc/health-and-exercise-app">
+        <img src="assets/health-app.jpg" width="100%" alt="HopeMove health and exercise app"/>
+      </a>
+      <p><b><a href="https://github.com/erayfazilordanuc/health-and-exercise-app">HopeMove (health-and-exercise-app)</a></b><br>
+      Exercise app for adolescents in cancer treatment. React Native client, Spring Boot + PostgreSQL backend. Used in a clinical pilot study; co-author of the <a href="https://doi.org/10.1200/JCO.2026.44.16_suppl.10034">Journal of Clinical Oncology abstract</a> presented at ASCO 2026.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/dinasour-game-beater">
@@ -78,6 +95,8 @@ server setup and deployment behind them.
 ![C++](https://img.shields.io/badge/C++-1F2328?style=flat-square&logo=cplusplus&logoColor=659AD2)
 ![ESP32](https://img.shields.io/badge/ESP32-1F2328?style=flat-square&logo=espressif&logoColor=E7352C)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-1F2328?style=flat-square&logo=platformio&logoColor=FF7F00)
+![MATLAB](https://img.shields.io/badge/MATLAB-1F2328?style=flat-square)
+![Simulink](https://img.shields.io/badge/Simulink-1F2328?style=flat-square)
 
 **Autonomy & Vision**<br>
 ![Python](https://img.shields.io/badge/Python-1F2328?style=flat-square&logo=python&logoColor=FFD43B)
