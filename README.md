@@ -20,8 +20,7 @@
 
 Control team member at **Derin Mavi Teknoloji**, a TEKNOFEST air defense systems team.
 
-Designing position control for a 2-axis stepper turret: [**turret-control**](https://github.com/erayfazilordanuc/turret-control).
-Model-in-the-loop design in MATLAB/Simulink is done; the C core is next, verified in SIL and then on STM32 hardware (HIL).
+Building [**turret-control**](https://github.com/erayfazilordanuc/turret-control): position control for a 2-axis stepper turret, from Simulink to STM32.
 
 <sub>Part-time web development at Servi (React, Next.js): [serviekibi.com](https://serviekibi.com), [rehber.serviekibi.com](https://rehber.serviekibi.com).</sub>
 
@@ -36,7 +35,7 @@ Model-in-the-loop design in MATLAB/Simulink is done; the C core is next, verifie
         <img src="assets/turret-control.png" width="100%" alt="turret-control: raw step vs S-curve"/>
       </a>
       <p><b><a href="https://github.com/erayfazilordanuc/turret-control">turret-control</a></b><br>
-      Position control for a 2-axis stepper turret. Loop gain chosen against rotor resonance (12 dB margin), velocity feed-forward, S-curve reference. A nonlinear Simulink model shows a raw 50° step slipping ~6 teeth and the S-curve move slipping none. MIL done; C core, SIL and STM32 HIL next.</p>
+      Position control for a 2-axis stepper turret. Designed and verified in MATLAB/Simulink; C core, SIL and STM32 HIL in progress.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/erayfazilordanuc/esp-5dof-manipulator">
