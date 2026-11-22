@@ -18,12 +18,10 @@
 
 ### Currently
 
+Control team member at **Derin Mavi Teknoloji**, a TEKNOFEST air defense systems team.
+
 Designing position control for a 2-axis stepper turret: [**turret-control**](https://github.com/erayfazilordanuc/turret-control).
 Model-in-the-loop design in MATLAB/Simulink is done; the C core is next, verified in SIL and then on STM32 hardware (HIL).
-
-Building software at **Orinium** — autonomous fixed-wing UAV for TEKNOFEST.
-Mission state machine in Python/pymavlink over ArduPlane, Gazebo/SITL validation loop,
-Pixhawk integration and flight testing.
 
 Also building web at **Servi** — a volunteer community I joined, now part-time there.
 React and Next.js apps in production: [serviekibi.com](https://serviekibi.com) and
